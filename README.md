@@ -191,17 +191,6 @@ Para rodar testes instrumentados em um dispositivo ou emulador:
 - Atualmente, a lista é salva ao adicionar ou excluir tarefas.
 - Uma melhoria recomendada é salvar a lista também quando o usuário marcar ou desmarcar o `CheckBox`, garantindo persistência imediata do estado de conclusão.
 
-## Possíveis melhorias
 
-- Persistir imediatamente o status de conclusão da tarefa.
-- Adicionar edição de tarefas.
-- Validar espaços em branco antes de adicionar uma tarefa.
-- Exibir mensagem quando a lista estiver vazia.
-- Substituir `notifyDataSetChanged()` por atualizações específicas, como `notifyItemInserted()` e `notifyItemRemoved()`.
-- Criar uma camada de repositório para separar melhor regras de negócio e persistência.
-- Migrar a persistência para Room caso o app cresça.
-- Adicionar testes para as classes de persistência e manipulação da lista.
 
-## Licença
 
-Este projeto ainda não possui uma licença definida.
